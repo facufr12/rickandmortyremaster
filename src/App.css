@@ -106,3 +106,111 @@ p {
 .footerback {
   background-color: rgb(30, 112, 74);
 }
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.background {
+  background-color:	#343a40
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(240, 240, 240);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+.title {
+  text-align: center;
+  font-size: 90px;
+  margin: 0xp;
+  padding: 40px;
+  color:aqua;
+}
+
+h3 {
+  font-family: "Mukta", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+}
+
+p {
+  font-family: "Mukta", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.cardcontainer {
+  background: rgb(44, 108, 30);
+  background: linear-gradient(
+    90deg,
+    rgba(44, 108, 30, 0.8463760504201681) 0%,
+    rgba(58, 112, 51, 0.7175245098039216) 46%,
+    rgba(36, 79, 28, 0.76234243697479) 100%
+  );
+  border-radius: 40px;
+  padding: px;
+
+  margin: 30px;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.card-title {
+  font-size: 30px;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.botonespaginacion {
+  align-items: end;
+  margin: 10px;
+}
+
+.boton-atras {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.boton-adelante {
+  margin-bottom: 0px;
+}
+
+.card-body {
+  background-color: rgb(30, 112, 74);
+}
+
+.footerback {
+  background-color: rgb(30, 112, 74);
+}
