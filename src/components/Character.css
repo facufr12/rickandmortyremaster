@@ -1,0 +1,42 @@
+.character-card {
+    width: 20rem;
+    background-color: #343a40; /* Color de fondo */
+    border: none; /* Sin bordes */
+    border-radius: 0; /* Sin bordes redondeados */
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .character-card-title {
+    background-color: #343a40; /* Color de fondo para el título */
+    color: white; /* Color del texto del título */
+    padding: 10px; /* Espaciado interno del título */
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .character-card-image {
+    border-radius: 0; /* Sin bordes redondeados para la imagen */
+  }
+  
+  .character-card-body {
+    background-color: #343a40; /* Color de fondo para el cuerpo */
+    color: white; /* Color del texto del cuerpo */
+    padding: 20px; /* Espaciado interno del cuerpo */
+  }
+  
+  .botones-paginacion {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .boton-atras button,
+  .boton-adelante button {
+    font-size: 20px; /* Tamaño de la fuente */
+    padding: 10px 20px; /* Espacio interno */
+  }
+  
+  .boton-atras {
+    margin-right: auto; /* Mueve el botón "Prev Page" a la izquierda */
+  }
+  
